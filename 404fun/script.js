@@ -1,5 +1,23 @@
-console.log("Red team: nice try 😉 — keep digging");
+console.log("Red team detected 👀 — check the DOM.");
 
-document.getElementById("funButton").addEventListener("click", () => {
-  alert("Privilege escalation? Not here… yet 😏");
+const messages = [
+  "Hmm… you like pressing buttons, huh?",
+  "Assume breach. Always.",
+  "Welcome to the lab 🛠 Red sees this.",
+];
+
+let clickCount = 0;
+
+const button = document.getElementById("funButton");
+const text = document.getElementById("secretText");
+
+button.addEventListener("click", () => {
+  clickCount++;
+
+  if (clickCount <= messages.length) {
+    text.textContent = messages[clickCount - 1];
+    text.classList.remove("hidden");
+  } else {
+    text.textContent = "No more secrets here… or is there? 😏";
+  }
 });

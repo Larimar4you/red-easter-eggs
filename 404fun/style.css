@@ -23,3 +23,14 @@ button:hover {
     background-color: #0f0;
     color: #111;
 }
+
+.hidden {
+    display: none;
+}
+
+#secretText {
+    margin-top: 20px;
+    color: #0f0;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
