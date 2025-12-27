@@ -21,12 +21,16 @@ button.addEventListener("click", () => {
     text.textContent = "No more secrets here… or is there? 😏";
   }
 });
-if (window.devtools?.open || window.outerWidth - window.innerWidth > 160) {
+
+// DevTools easter egg
+if (window.outerWidth - window.innerWidth > 160) {
   console.log(
     "%cYou’re not just curious. You’re dangerous 😈",
     "color: red; font-size: 16px; font-weight: bold;"
   );
 }
+
+// Konami Code
 const konami = [
   "ArrowUp",
   "ArrowUp",
