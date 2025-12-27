@@ -15,7 +15,7 @@ Check it out here: [https://red-easter-eggs.vercel.app](https://red-easter-eggs.
 
 ---
 
-## 📝 About
+## About
 
 - HTML / CSS / JS project
 - Hidden console messages for those exploring DevTools
@@ -24,7 +24,7 @@ Check it out here: [https://red-easter-eggs.vercel.app](https://red-easter-eggs.
 
 ---
 
-## 🧩 Features
+## Features
 
 - Interactive button with hidden messages
 - ASCII art “welcome lab” for observant Red
@@ -33,7 +33,7 @@ Check it out here: [https://red-easter-eggs.vercel.app](https://red-easter-eggs.
 
 ---
 
-## ⚡ How to explore
+## How to explore
 
 1. Open the page in your browser
 2. Press the “Press me” button to see hidden messages
